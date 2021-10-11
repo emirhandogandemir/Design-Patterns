@@ -1,0 +1,1 @@
+Bir projede çeşitli tiplerde dökümanların oluşturulması gerektiğini düşünelim. Document interfaceine getDocument() isimli bir method koyuyoruz

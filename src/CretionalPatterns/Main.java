@@ -4,9 +4,15 @@ import CretionalPatterns.factory.AudiFactory;
 import CretionalPatterns.factory.BmwFactory;
 import CretionalPatterns.factory.Car;
 import CretionalPatterns.factory.CarFactory;
+import CretionalPatterns.factorymethod.Document;
+import CretionalPatterns.factorymethod.DocumentFactory;
 
 public class Main {
     public static void main(String[] args) {
+
+
+        // Factory Design Pattern
+
         /*
         Bmw marka araçların üretildiği bir fabrika üretiyoruz
          */
@@ -24,5 +30,14 @@ public class Main {
         for (final Car car : audi.getCarList()) {
             System.out.println(car.getBrand() + " " + car.getModel() + "," + car.getPower());
         }
+
+        Document document = DocumentFactory.createDocument("PDF");
+        System.out.println(document.getDocument());
+
+        document = DocumentFactory.createDocument("WORD");
+        System.out.println(document.getDocument());
+
+
     }
+
 }

@@ -1,9 +1,9 @@
 package CretionalPatterns.factory;
 
 public abstract class Car {
-    private String brand = null;
-    private String model = null;
-    private int power = 0;
+    private String brand ;
+    private String model ;
+    private int power ;
 
     public Car(final String brand, final String model, final int power) {
         setBrand(brand);

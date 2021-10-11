@@ -1,0 +1,4 @@
+Bir sınıftan yeni bir nesne oluşturulduğunda kullanıcı sınıf hangi sınıfı kullandığını bilir ve nesne oluşturma sürecini yönetmiş olur .
+Bu bağımlılığı ortadan kaldırmak için fabrika tasarım şablonu kullanılabilir .Fabrika Sınıfı kullanılan nesneyi oluşturmakla sorumludur .
+Soyut sınıflar kullanıldığı takdirde , kullanıcı sınıf kendisine fabrika tarafından hangi implementasyonun verildiğini bile bilmez .
+Bu şekilde kullanıcı sınıfa değişik türde implementasyonlar verilerek uygulamanın esnekliği artırılabilir .
