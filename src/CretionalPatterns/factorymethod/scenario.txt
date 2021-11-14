@@ -1,1 +1,24 @@
 Bir projede çeşitli tiplerde dökümanların oluşturulması gerektiğini düşünelim. Document interfaceine getDocument() isimli bir method koyuyoruz
+
+Bir nesne yaratmak için bir arayüz tanımla , fakat hangi sınıfın nesnesinin oluşturulacağına alt sınıflar karar versin .Factory method bir sınıfın nesne oluşturmasını alt
+sınıflara ötelenmesine izin verir .
+
+Factory Method kalıbımız , nesnelerin nerede yaratılacağı sorununu çözer:
+- nesnelerin yaratılmalarını soyutlar ve bu işi istemci kodlarından çıkarıp "üretici" ya da methodlara havale eder .
+
+ Factory Method , nesnelerin yaratılmasından sorumlu bir metottur öyle ki bir arayüzde tanımlanır ve alt sınıflarda gerçekleştirilir .
+
+ Her alt sınıf ise bir başka nesneyi oluşturur.
+
+Nesneler arasında bir ilişki yoksa zaten tamamen farklı FACTORY Method arayüzleri kullanılmalıdır .
+
+Eğer nesneler farklı parametrelerden oluşturuluyorsa ortak bir create() metodu dolayısıyla ortak bir ata arayüz kullanılamaz .
+
+Factorylerin aldıkları parametre sayısını minimize edicez .
+
+Birden fazla factory metodunu tek bir sınıfta toplamak için , oluşturulan nesnelerin bir nesne ailesinin parçası olması gereklidir . => Abstract Factory
+
+Joshua Bloch Effective Java kitabında , kurucular yerine static üretici metotları tavsiye eder .
+
+Sonuç =>
+İstemciler , kullandıkları sınıfların yaratılmalarına bağımlı değildir .
