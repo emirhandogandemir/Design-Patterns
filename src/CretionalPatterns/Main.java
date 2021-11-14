@@ -37,6 +37,7 @@ public class Main {
         document = DocumentFactory.createDocument("WORD");
         System.out.println(document.getDocument());
 
+         //Singleton1 singleton1 = new Singleton1();
 
     }
 

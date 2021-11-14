@@ -23,7 +23,3 @@ Singleton sınıf oluşturmanın en azından 2 yolu vardır.
 -Nesne yaratmayı kontrol ederek
 -Enumeration kullanarak
 
-// Hala reflection ve seriliazation ile kırılabilir doublecheckinglazyloadingden sonrasında bile Enum bunun ile çözülür
-
-
-
