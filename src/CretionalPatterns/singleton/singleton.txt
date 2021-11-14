@@ -1,0 +1,8 @@
+Bu Design patternin amacı bir classtan sadece bir tane instance üretilmesini sağlamaktır
+.Yani eğer daha önce yaratılmış bir insance yoksa yaratır . Eğer var ise var olan instance kullanılır
+
+Kulllanıma ihtiyaç duyulan durumlar şu şekildedir :
+
+1-) Birden çok sınıfın aynı instance i kullanma durumu
+2-) Tüm uygulama için yalnızca bir nesne olması gerekmektedir
+3-) Sadece bir nesne olduğu (unique) garanti edilmelidir

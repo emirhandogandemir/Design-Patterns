@@ -1,0 +1,3 @@
+Birbiriyle ilişkili nesne grupları (nesne ailesi) oluşturmak için soyut fabrika tasarım şablonu kullanılmaktadır .
+Soyut fabrika sınıfı bir interfacesınıf olarak tanımlanır . İnterface bünyesinde aynı aileden nesneler oluşturmak için metotlar tanımlanır .
+Her nesne ailesi bir interface sınıfı metodu ile temsil edilir.
