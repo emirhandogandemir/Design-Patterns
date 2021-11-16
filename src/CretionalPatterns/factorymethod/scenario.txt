@@ -22,3 +22,5 @@ Joshua Bloch Effective Java kitabında , kurucular yerine static üretici metotl
 
 Sonuç =>
 İstemciler , kullandıkları sınıfların yaratılmalarına bağımlı değildir .
+
+Fabrika Metodunu çağıran kod genelde istemci kod olarak adlandırılır
