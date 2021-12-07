@@ -1,0 +1,4 @@
+Amaç : Prototype bir nesneyi kullanarak yaratılacak nesneleri belirlemek ve yeni nesneleri ,prototipi kopyalayarak oluşturmaktır.
+Prototype kalıbı nesnelerin nasıl üretileceğini çözer .
+önerdiği çözüm , yeni nesneleri belli durumlara sahip örnek nesnelerden kopyalayarak yaratmaktır.
+Amaçlarından bir tanesi de üretiken nesnenin çok kaynak tüketmesi durumunun engellenmesini sağlamaktır .
