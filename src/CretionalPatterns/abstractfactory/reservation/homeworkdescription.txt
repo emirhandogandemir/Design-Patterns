@@ -1,0 +1,5 @@
+İsimleri HotelA, HotelB ve HotelC olan 3 hotel aynı şirket tarafından
+satın alınmış olup ve BT altyapılarının birleştirilmesine çalışılmaktadır.
+Her otelin ayrı müşteri, oda, rezervasyon ve ödeme nesnesi vardır.
+• Bu nesnelerin oluşturulmasını bir yapı altında toplamak için Abstract
+Factory nasıl kullanırdınız?
