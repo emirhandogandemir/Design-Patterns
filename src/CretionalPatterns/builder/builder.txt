@@ -1,0 +1,9 @@
+Builder tasarım şablonunun kompleks yapıdaki bir nesneyi değişik parçaları bir araya getirerek oluşturmasında yatmaktadır
+Builder karmaşık nesnelerin adım adım oluşturulduğu yaratımsal bir tasarım desenidir
+Bu desen aynı kurucu kod ile farklı tür ve gösterimdeki nesneleri oluşturmanıza olanak sağlar.
+Builder deseni nesnenin kurucu kodunu kendine has bir sınıfa dönüştürerek, builder olarak adlandırılan bağımsız nesneleri taşımanızı önerir.
+
+
+Builder Design pattern ne zaman kullanılır ?
+* Değişik parametreler kullanılarak aynı tip kompleks yapıda bir nesnenin oluşturulmasında
+* kompleks yapıya sahip nesnenin oluşturulma sürecinin , sistemin diğer bölümlerinden bağımsız bir şekilde yapılması gerektiği durumlarda .
