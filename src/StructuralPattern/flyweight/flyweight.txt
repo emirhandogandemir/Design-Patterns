@@ -1,0 +1,13 @@
+Amaç: Çok sayıda küçük nesneyi etkin bir şekilde sağlamak için paylaşmayı kullan.
+
+Örneğin , bir kitabın modellenmesinde kullanılabilecek sayfa , paragraf, satır , kelime ve harf nesneleri bu cinstendir.
+
+Benzer Şekilde bir oyun yazılımında insan , asker , araba vb nesnelerden çok sayıda oluşturmak ve kullanmak gerekir.
+
+Çok nesne , bellek ve Cpu problemleri demektir .
+
+Flyweight nesne farklı anlarda farklı bağlamlarda ortak olarak kullanılabilen bir nesnedir.
+
+Flyweight nesne farklı bağlamlar tarafından ortaklaşa kullanılır ama nesne her bağlamda bağımsız olarak davranır.
+
+içsel durum , flyweight nesnenin temsil ettiği asıl durumu iken dışsal durum , içinde bulunduğu bağlam tarafından belirlenen durumdur.
