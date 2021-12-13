@@ -1,0 +1,10 @@
+Bir sınıfın arayüzünü , bir başka sınıfın beklediği arayüze çevirir.
+Adaptör , uyumsuz arayüzleri sebebiyle çalışamayacak sınıfların bir arada çalışmalarını sağlar.
+
+Bir adaptör , bu özel nesne bir nesnenin arayüzünü değiştirerek diğer nesnenin kullanabileceği hale getirir.
+
+Adaptör mevcut nesnelerden biriyle uyumlu bir arayüzü (interface) alır.
+Mevcut nesne bu arayüzü kullanarak adaptörün metodlarını güvenli bir şekilde çağırabilir.
+Bir istek geldiğinde adaptör isteği ikinci bir nesneye onun beklediği bir formatda aktarır.
+
+Çalışan bir sisteme yeni bir özelliğin eklenmesini kolaylaştıran bir tekniktir.

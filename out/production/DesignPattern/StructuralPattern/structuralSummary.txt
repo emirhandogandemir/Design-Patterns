@@ -1,0 +1,6 @@
+Yapısal Kalıplar , sınıflar ve nesnelerin daha büyük yapılar oluşturmak üzere nasıl bir araya geldikleri ile ilgilidir.
+
+- Kalıtım, yapısal bir ilişkidir
+- Birleştirme yapısal bir ilişkidir
+
+Yapısal kalıplarda var olan arayüzleri , sınıfları ve nesneleri , kalıtım ve birleştirme yoluyla bir araya getirerek yeni fonksiyonel yapılar oluşturulur
