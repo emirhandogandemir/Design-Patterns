@@ -11,3 +11,15 @@ Flyweight nesne farklı anlarda farklı bağlamlarda ortak olarak kullanılabile
 Flyweight nesne farklı bağlamlar tarafından ortaklaşa kullanılır ama nesne her bağlamda bağımsız olarak davranır.
 
 içsel durum , flyweight nesnenin temsil ettiği asıl durumu iken dışsal durum , içinde bulunduğu bağlam tarafından belirlenen durumdur.
+
+Burada aslında amaç bir nevi yeni obje türetmemek .
+
+Flyweight kalıbı , çok nesne gereksinimi olduğunda kullanılır ve nesne sayısını azaltır.
+
+Çok sayıda nesneye ihtiyaç olup , bu nesnelerin durumları daha çok dışsal olduğunda Flyweight kalıbı kullanılabilir.
+
+Aynı nesne farklı bağlamlarda , değişn dışsal durumundan dolayı farklı şekilde görünebilecektir.
+
+Flyweight nesneler çoğunlukla bellekte devamlı olarak tutulurlar .
+
+Flyweight kalıbında nesne havuzu uygulaması yaygındır.
