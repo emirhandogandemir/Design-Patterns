@@ -1,5 +1,8 @@
 package StructuralPattern.flyweight.book;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Book {
     private String bookName;
     private List<Page> pages;
