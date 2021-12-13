@@ -1,0 +1,20 @@
+Parça bütün ilişkisini göstermek için nesneleri ağaç yapılarında ifade et.
+Bileşik nesne , istemcilerin tekil nesneleri ve bu nesnelerin bileşiklerini aynı şekilde işlemesine izin verir.
+
+İstemcilerin tek olan parçalarla , bütün olan bileşik nesneleri aynı şekilde kullanabilmelerini isteriz.
+
+Composite kalıbında , öncelikle parçalar ile bütünün ortak bir arayüze sahip olması sağlanır.
+- Bu durumda istemci bileşik nesneyi de parçaları da aynı şekilde kullanır .
+Sonrasında bileşik nesne ile parçalar arasındaki ilişki düzenlenir
+-Bu amaçla bileşik nesnenin bir torba arayüzüne sahip olması sağlanır.
+
+Parça bütün ilişkisinin olduğu yerlerde Composite kalıbı kullanılabilir .
+
+İstemicinin ,parça bütün arasındaki farkı gözetmeden bu sistemi kullanması söz konusudur .
+
+Bileşik nesne de aynı zamanda parçadır .
+
+Composite tasarım desenini hiyerarşik nesne yapıları kurmak
+istediğimizde ve sistemimizde parçalardan bütün oluşturmak
+istediğimizde kullanırız.
+
