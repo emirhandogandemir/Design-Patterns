@@ -8,3 +8,8 @@ Mevcut nesne bu arayüzü kullanarak adaptörün metodlarını güvenli bir şek
 Bir istek geldiğinde adaptör isteği ikinci bir nesneye onun beklediği bir formatda aktarır.
 
 Çalışan bir sisteme yeni bir özelliğin eklenmesini kolaylaştıran bir tekniktir.
+
+Uyumsuz arayüz problemini aşmak için uyum problemi olan sınıfa değişiklik yapmak OCP'ye aykırıdır.
+
+Adaptor kalıbı, işimize yarayan ama istediğimiz, çağırmasını bildiğimiz
+arayüze sahip olmayan nesneyi kullanılabilir yapar
