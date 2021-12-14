@@ -4,3 +4,9 @@ Kompleks bir sistemin sınırlı bir parçasına basit bir arayüzle ulaşmak is
 Bir alt sistemi katmanlara ayırmak istediğinzide Facade kullanın.
 Çoğu durumda tek bir Facade nesnesi yeterli olduğundan Facade‘ler genellikle Singleton‘a dönüştürülebilirler.
 Yazacağımız bu arayüzde , alt sınıflar Facade sınıfımızdan bağımsız da çalışabilmeliler, Facade sadece bir kullanım kolaylığı sağlayan arayüz olacak tasarımımızda.
+
+Karmaşık ve küçük parçalardan oluşan sistemlere basit bir arayüz sunmak.
+Yani zaten anlaşılması basit bir işlem için facade yazmak gereksiz olur.
+
+Facade yapısı kurulduğunda arayüzünü sağlayan sınıf sık sık
+değişmeyecek bir sınıf olmalıdır.
