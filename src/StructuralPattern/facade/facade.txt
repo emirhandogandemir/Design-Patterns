@@ -1,0 +1,6 @@
+Facade bir kütüphane, framework ya da başka bir kompleks seri için basitleştirilmiş bir arayüz sunan yapısal bir tasarım desenidir.
+Facade çok fazla değişken parça içeren kompleks bir sisteme basit bir arayüz sunan bir sınıftır.
+Kompleks bir sistemin sınırlı bir parçasına basit bir arayüzle ulaşmak istiyorsanız Facade desenini kullanın.
+Bir alt sistemi katmanlara ayırmak istediğinzide Facade kullanın.
+Çoğu durumda tek bir Facade nesnesi yeterli olduğundan Facade‘ler genellikle Singleton‘a dönüştürülebilirler.
+Yazacağımız bu arayüzde , alt sınıflar Facade sınıfımızdan bağımsız da çalışabilmeliler, Facade sadece bir kullanım kolaylığı sağlayan arayüz olacak tasarımımızda.
