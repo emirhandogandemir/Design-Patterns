@@ -1,0 +1,5 @@
+Bridge, Türkçe karşılığı ile köprü büyük sınıfları veya birbiriyle yakın ilişkili sınıfları, birbirinden bağımsız olarak geliştirilebilecek iki ayrı hiyerarşiye bölmenizi sağlayan bir tasarım desenidir.
+Köprü deseni (Bridge pattern) bu kalıtsal türetme (inheritance) işini nesne bileşimi haline getirerek çözüyor. Bunun anlamı bu iki boyuttan birini ayrı bir sınıf haline getiriyor ve orijinal sınıf içerisinden buna referans veriyorsunuz, böylece orijinal sınıf diğer sınıfın bütün metod ve durumlarını içermek zorunda kalmıyor.
+Belirli bir işlevin çeşitli varyasyonlarını içeren monoloitik bir sınıfı parçalara bölmek ve yönetmek istediğinizde köprü (Bridge) tasarım desenini kulllanın.
+Bir sınıfı bağımsız birden fazla boyuta genişletecekseniz bu sınıfı kullanın.
+Çalışma anında uygulama yöntemlerini değiştirmek için köprü desenini kullanın.
