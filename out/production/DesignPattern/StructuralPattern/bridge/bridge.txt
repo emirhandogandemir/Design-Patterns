@@ -3,3 +3,6 @@ Köprü deseni (Bridge pattern) bu kalıtsal türetme (inheritance) işini nesne
 Belirli bir işlevin çeşitli varyasyonlarını içeren monoloitik bir sınıfı parçalara bölmek ve yönetmek istediğinizde köprü (Bridge) tasarım desenini kulllanın.
 Bir sınıfı bağımsız birden fazla boyuta genişletecekseniz bu sınıfı kullanın.
 Çalışma anında uygulama yöntemlerini değiştirmek için köprü desenini kullanın.
+Kısacası en önemli kullanım alanları eğer bir nesneyi run-time'da
+oluşturacaksak ve bu nesne diğer farklı nesneler tarafından
+kullanılacaksa bu pattern'i kullanmamız doğru olacaktır.
