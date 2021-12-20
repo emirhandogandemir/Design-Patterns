@@ -9,7 +9,6 @@ public abstract class Sirket {
         this.departman = departman;
     }
 
-    public abstract void ekle(Sirket sirket);
-    public abstract void sil(Sirket sirket);
+
     public abstract void yazdir(int satirbasi);
 }

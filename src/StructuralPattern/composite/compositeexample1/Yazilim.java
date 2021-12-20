@@ -7,16 +7,6 @@ public class Yazilim extends Sirket{
     }
 
     @Override
-    public void ekle(Sirket sirket) {
-
-    }
-
-    @Override
-    public void sil(Sirket sirket) {
-
-    }
-
-    @Override
     public void yazdir(int satirbasi) {
         System.out.println("-"+satirbasi + " "+isim +" ");
     }

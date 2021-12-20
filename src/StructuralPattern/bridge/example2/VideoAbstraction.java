@@ -6,5 +6,6 @@ public abstract class VideoAbstraction {
     public VideoAbstraction(VideoModeService videoModeService) {
         this.videoModeService = videoModeService;
     }
+
     public abstract void showScreen();
 }

@@ -3,7 +3,7 @@ package StructuralPattern.composite.compositeexample1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Kadro extends Sirket {
+public class Kadro extends Sirket implements KadroCrud{
 
     private List<Sirket> list = new ArrayList<>();
 
